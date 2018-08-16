@@ -1,0 +1,527 @@
+﻿
+ 
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror::-webkit-input-placeholder {
+    color: #c72e2e;   
+}
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:valid:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:-moz-placeholder {
+    color: #c72e2e;  
+}
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:valid:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror::-moz-placeholder {
+    color: #c72e2e;  
+}
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:valid:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:-ms-input-placeholder {
+    color: #c72e2e;  
+}
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:valid:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+ 
+
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror  {
+ outline: none;
+ border: 1px solid #c72e2e;
+  background: url("./error/error.png") no-repeat;
+
+  
+background-color: #FFF;
+background-position:98% 12px;
+
+
+
+  background-size: 18px;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    
+ 
+
+}
+
+.textInput input:not([type=submit]):not([type=radio]):not([type=checkbox]).merror:valid:focus   {
+ outline: none;
+
+  border: 1px solid #009cde;
+  background-image: url(none);
+background-color: #FFF;
+background-position:98% 7px;
+
+ 
+
+
+
+}
+
+
+
+
+/* Input > All Reauired */
+  
+
+ 
+
+
+  
+input.merror::-webkit-input-placeholder {
+    color: #c72e2e;   
+}
+input.merror:valid:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+input.merror:-moz-placeholder {
+    color: #c72e2e;  
+}
+input.merror:valid:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+input.merror::-moz-placeholder {
+    color: #c72e2e;  
+}
+input.merror:valid:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+input.merror:-ms-input-placeholder {
+    color: #c72e2e;  
+}
+input.merror:valid:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+ 
+
+input.merror  {
+ outline: none;
+ border: 1px solid #c72e2e;
+  background: url("./error/error.png") no-repeat;
+background-color: #FFF;
+background-position:98% 12px;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+
+
+
+   background-size: 18px;
+    
+ 
+
+}
+
+
+
+
+
+input.Anouar.merror:valid   {
+outline: none;
+
+ border: 1px solid #aaa;
+ 
+  background: url('./../images/cc.png') no-repeat;
+background-position:  right -1px bottom 12px  ;
+
+background-size:120px;
+background-color: #FFF;
+ 
+
+}
+
+input.Anouar.merror:valid:focus   {
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background: url('./../images/cc.png') no-repeat;
+background-position:  right -1px bottom 12px  ;
+
+background-size:120px;
+background-color: #FFF;
+ 
+
+}
+
+
+
+
+
+input.Anouar1.merror:valid   {
+outline: none;
+
+ border: 1px solid #aaa;
+ 
+background: url('./../images/cv1.png') no-repeat;
+background-position:  right 1px bottom 12px  ;
+background-color: #fff;
+background-size: 70px;
+
+background-color: #FFF;
+ 
+
+}
+
+input.Anouar1.merror:valid:focus   {
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+background: url('./../images/cv1.png') no-repeat;
+background-position:  right 1px bottom 12px  ;
+background-color: #fff;
+background-size: 70px;
+
+background-color: #FFF;
+ 
+
+}
+
+
+
+input.Anouar2.merror:valid   {
+outline: none;
+
+ border: 1px solid #aaa;
+ 
+ background: url('none') no-repeat;
+
+background-color: #FFF;
+ 
+
+}
+
+input.Anouar2.merror:valid:focus   {
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background: url('none') no-repeat;
+
+background-color: #FFF;
+ 
+
+}
+
+input.Anouar3.merror:valid   {
+outline: none;
+
+ border: 1px solid #aaa;
+ 
+    background: url('./../images/vbv.png')  no-repeat;
+background-position:  right 2px bottom 9px  ;
+background-color: #fff;
+background-size:90px;
+
+ 
+
+}
+
+input.Anouar3.merror:valid:focus   {
+outline: none;
+
+  border: 1px solid #009cde;
+
+
+
+     
+ 
+    background: url('./../images/vbv.png')  no-repeat;
+background-position:  right 2px bottom 9px  ;
+background-color: #fff;
+background-size:90px;
+
+ 
+
+}
+
+select.merror  {
+ outline: none;
+
+
+ 
+  background: url("./error/error.png") no-repeat;
+background-color: #FFF;
+background-position:98% 7px;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    
+ 
+
+}
+
+select.merror:valid:focus   {
+ outline: none;
+
+  border: 1px solid #009cde;
+  background-image: url(none);
+background-color: #FFF;
+background-position:98% 7px;
+
+}
+ 
+ 
+ 
+ /* Input > All Reauired  Focus */
+ 
+ 
+ input.Anouar:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+ 
+ input.Anouar:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+ 
+ input.Anouar:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+ 
+ input.Anouar:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+
+ 
+ input.Anouar:focus {
+	 
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background: url('./../images/cc.png') no-repeat;
+background-position:  right -1px bottom 12px  ;
+
+background-size:120px;
+background-color: #FFF;
+
+}
+
+
+
+ input.Anouar1:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+ 
+ input.Anouar1:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+ 
+ input.Anouar1:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+ 
+ input.Anouar1:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+  input.Anouar1:focus {
+	outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background: url('./../images/cv1.png') no-repeat;
+
+  background-position:  right 1px bottom 12px  ;
+
+
+
+  background-size: 70px;
+
+}
+
+
+ input.Anouar2:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+ 
+ input.Anouar2:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+ 
+ input.Anouar2:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+ 
+ input.Anouar2:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+  input.Anouar2:focus {
+	 
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background-image: url(none);
+background-color: #FFF;
+
+}
+ 
+ 
+ 
+ 
+ 
+  input.Anouar3:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+ 
+ input.Anouar3:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+ 
+ input.Anouar3:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+ 
+ input.Anouar3:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+  input.Anouar3:focus {
+	 
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+      background: url('./../images/vbv.png')  no-repeat;
+background-position:  right 2px bottom 9px  ;
+background-color: #fff;
+background-size:90px;
+
+}
+ 
+ 
+   input.Anouar4:focus::-webkit-input-placeholder {
+ 
+ color: #929292;
+ 
+}
+
+/* Firefox < 19 */
+ 
+ input.Anouar4:focus:-moz-placeholder {
+ color: #929292;
+}
+
+/* Firefox > 19 */
+ 
+ input.Anouar4:focus::-moz-placeholder {
+ color: #929292;
+}
+
+/* Internet Explorer 10 */
+ 
+ input.Anouar4:focus:-ms-input-placeholder {
+ color: #929292;
+}
+
+  input.Anouar4:focus {
+	 
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+  background-image: url(none);
+background-color: #FFF;
+
+}
+
+
+
+
+
+select:focus {
+	 
+outline: none;
+
+  border: 1px solid #009cde;
+ 
+   
+background-color: #FFF;
+
+}
+ 
+ /* Input > All Reauired  required */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
